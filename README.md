@@ -4,7 +4,7 @@
 Team Members: Mansi, Asma, Shradha, Joselyn, Lena
 
 The interface is a website that allows the user to select choices
-which influence their stress level. By the end of the game the user
+in their day which influence their stress level. By the end of the game the user
 has successfully spent a day in their life and are prompted to refresh or 
 they have reached burnout and are guided to reflect on choices that
 could help them avoid/treat burnout.
