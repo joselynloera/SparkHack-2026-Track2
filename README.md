@@ -12,7 +12,7 @@ due to the stress that college students like us experience and skills we can
 develop over time to manage burnout.
 
 Instructions: Open the home.html file. Follow the prompts and
-make your own choices until you reach an end page determining whether you
+make your own choices until you reach an end page determining whether or not you
 reached burnout.
 
 Code structure: Since we used HTML, we have a main HTML file
