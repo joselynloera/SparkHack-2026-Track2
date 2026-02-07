@@ -1,0 +1,149 @@
+/*body {
+    background-image: url('assets/outsidepixelart.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+button {
+  background-image: url('assets/pixelphone.png');
+  background-color: transparent;
+  background-size:contain;
+  background-repeat: no-repeat;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  margin-top: 20px;
+  display: inline-block;
+}
+  */
+
+  
+  body {
+    font-family: Arial, sans-serif;
+    background: rgb(175, 102, 205);
+    text-align: center;
+    padding-top: 50px;
+  }
+  .container {
+    max-width: 400px;
+    margin: auto;
+  }
+  #box {
+    width: 200px;
+    transition: transform 0.5s ease;
+  }
+  #reward {
+    margin-top: 20px;
+    font-size: 24px;
+    color: green;
+  }
+  .hidden {
+    display: none;
+  }
+
+  .surprise-img {
+  margin-top: 20px;
+  width: 150px;
+  animation: pop 0.4s ease;
+}
+
+@keyframes pop {
+  0% { transform: scale(0); opacity: 0; }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+/*makes a cursor pointer over the box*/
+#box {
+  width: 200px;
+  transition: transform 0.5s ease;
+  cursor: pointer; /* Add this */
+}
+
+/*makes hover effect*/
+#box:hover {
+  transform: scale(1.05);
+}
+
+/* Improve surprise image scaling
+   Right now .surprise-img is fixed at 150px. You might want it to scale better on different screens*/
+.surprise-img {
+  margin-top: 20px;
+  width: 100%;
+  max-width: 350px;
+  animation: pop 0.4s ease;
+}
+
+/*  Add a little padding under the reward
+    To give it breathing room:*/
+#reward {
+  margin-top: 20px;
+  font-size: 24px;
+  color: rgb(202, 5, 140);
+  padding-bottom: 20px;
+}
+
+
+
+
+/* Center the container */
+.container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* Center the gift box */
+#box {
+  display: block;
+  margin: 0 auto;
+}
+
+.button-container {
+    display:flex;
+    justify-content: space-evenly;
+    padding: 0 60px;
+    align-items: center;
+    position:fixed;
+    bottom: 40px;
+    left: 0;
+    width: 100%;
+
+}
+
+/* Style the View Collection button */
+button {
+  background-color: pink;
+  color: white;
+  border: none;
+  padding: 35px 40px;
+  font-size: 20px;
+  border-radius: 36px;
+  cursor: pointer;
+}
+
+/* Button hover effect */
+button:hover {
+  background-color: rgb(246, 109, 184);
+}
+
+
+/*Strawberry background*/
+body {
+  background-image: url('assets/outsidepixelart.png'); /* or .png */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+
+
+
+
+
