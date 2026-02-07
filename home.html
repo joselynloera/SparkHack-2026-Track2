@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>School v.s Life</title>
+    <link rel="stylesheet" href="mansi.css">
+</head>
+
+<body>
+
+    <!-- Title Screen-->
+    <div id="title-screen">
+        <h1>School vs Life</h1>
+        <p>Burning out...</p>
+        <button onclick="startGame()">Start</button>
+    </div>
+
+    <h1 id="time">6:00 am</h1>
+    <!-- Game Screen-->
+    <div id="game">
+        <p id="story-text">Your alarm goes off at 6:00.</p>
+
+        <div id="choices">
+            <button onclick="makeChoice('up')">Get out of bed</button>
+            <button onclick="makeChoice('snooze')">Snooze and get more rest</button>
+        </div>
+    </div>
+ <script src="script.js"></script>
+</body>
+</html>  
