@@ -7,6 +7,7 @@
 </head>
 
 <body>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
   <h1>Heading into the classroom</h1>
   <h1 id="timer"> 8:00 am</h1>
 
@@ -14,13 +15,13 @@
   <div class="stress-container">
     <div id="stress-bar"></div>
   </div>
-
+ <!-- Clicking buttons -->
   <div class="button-container">
-    <button type="button" onclick="takeExam()">Take exam</button>
-    <button type="button" onclick="study()">Study</button>
-    <button type="button" onclick="leave()">Leaving School</button>
+    <button id="examButton" type="button" onclick="takeExam()">Take exam</button>
+    <button id="studyButton" type="button" onclick="study()">Study</button>
+    <button id="leaveButton" type="button" onclick="leave()">Leaving School</button>
   </div>
 
-  <script src="jojo.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
